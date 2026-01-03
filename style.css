@@ -1,6 +1,5 @@
 body{
-    margin: 0;
-    padding: 0;
+    
     box-sizing: border-box;
 }
 #mean{
@@ -53,3 +52,49 @@ li:hover{
 .self button:hover{
     text-decoration: underline;
 }
+.parent{
+    margin: 0;
+    display: grid;
+    grid-template-columns:40% 60% ;
+    margin: 0 100px;
+    /* background: paleturquoise; */
+     box-sizing: border-box;
+    
+    
+    
+}
+.mean-child{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(61, 150, 120);
+    text-align: left;
+    height: 80px;
+    border-left: 2px solid rgb(61, 150, 120);
+    padding-left: 10px;
+    margin-top: 30px;
+    
+}
+.mean-child img{
+    width: 350px;
+    height: 250px;
+    
+}
+.mean-child h5{
+    color: black;
+    
+   
+    
+}.child{
+    width: 50%;
+    height: 250px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;  
+    padding-top: 100px;
+    border-bottom: 2px double rgb(143, 120, 120) ;
+    
+}
+.first{
+   font-size: 15px;
+   color: rgb(61, 150, 120);
+}
+
+
