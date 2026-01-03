@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#mean{
+    text-align: center;
+}
+#mean h2{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(61, 150, 120);
+    margin-top: 40px;
+
+}
+.nav ul li{
+    display: inline-block;
+    padding: 20px;
+    font-family:serif;
+    font-weight: 550;
+    font-size: 15px;
+
+
+}
+.nav ul{
+    margin-top: 40px;
+}
+li:hover{
+    color: rgb(61, 150, 120);
+}
+.self{
+    background-image: url(bg2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    padding-top: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.self p{
+    font-weight: 500;
+    font-family: sans-serif;
+    word-spacing: 5px;
+}
+.self button{
+    font-family: serif;
+    border-radius: 5px;
+}
+.self button:hover{
+    text-decoration: underline;
+}
